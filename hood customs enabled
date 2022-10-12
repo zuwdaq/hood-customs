@@ -1,4 +1,4 @@
---.gg/lockers runs you
+--.gg/locks runs you
 --Made by sparkyz
 
 getgenv().Prediction = 0.15038
@@ -36,7 +36,7 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Cam Lock Enabled | .gg/thusky",
+        Title = "Cam Lock Enabled | .gg/locks",
         Text = tx,
         Duration = 5
     })
